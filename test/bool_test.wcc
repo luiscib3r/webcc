@@ -1,0 +1,11 @@
+bool a;
+
+int c, d;
+
+int main() {
+	cin >> c >> d;
+
+	a = (c > d)
+
+	cout << c << d << a;
+}

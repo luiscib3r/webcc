@@ -1,0 +1,12 @@
+float r, area, perimetro;
+
+const PI = 3.14;
+
+int main() {
+	cin >> r;
+
+	area = PI * (r * r);
+	perimetro = 2 * PI * r;
+
+	cout << r << area << perimetro;
+}

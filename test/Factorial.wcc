@@ -1,0 +1,14 @@
+int num, fact, i;
+
+int main() {
+	cin >> num;
+
+	fact = num;
+
+	for i = num - 1 to 1 do {
+		fact = fact * i;
+		i = i - 1;
+	}
+
+	cout << num << fact << i;
+}

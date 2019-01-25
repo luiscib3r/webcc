@@ -1,0 +1,16 @@
+int s1, s2, sum;
+
+float suma2;
+
+const PI = 3.14;
+
+int main() {
+	cin >> s1 >> s2;
+	sum = s1 + s2;
+	cout << s1 << s2 << sum;
+
+	cin >> suma2;
+
+	suma2 = sum + suma2;
+	cout << suma2;
+}
